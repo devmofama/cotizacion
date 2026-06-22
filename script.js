@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- CONFIGURACIÓN DE ACCESO ---
     //const ACCESS_PASSWORD = 'HOLA'; // <-- CAMBIA ESTO
-    const ACCESS_PASSWORD = 'f4a99beb59f843d1acf4f94221135ed3';
+    const ACCESS_PASSWORD = 'f4a99beb59f843d1acf4f94221135ed3'; 
 
     // --- ELEMENTOS DEL LOGIN ---
     const loginOverlay = document.getElementById('login-overlay');
