@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- MANEJADOR DEL LOGIN ---
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const hash = MD5(passwordInput.value.trim()).toString();
+        const hash = md5(passwordInput.value.trim()).toString();
         //if (passwordInput.value.trim() === ACCESS_PASSWORD) {
         if (hash === ACCESS_PASSWORD) {
             loginOverlay.style.display = 'none';
